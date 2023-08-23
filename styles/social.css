@@ -1,0 +1,26 @@
+.social {
+  display: flex;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+  margin-top: 24px;
+}
+.social .social-link {
+  width: 46px;
+  height: 46px;
+  border-radius: 4px;
+  background: #F2F5F9;
+  color: #2C2D2E;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+.social .social-link:hover {
+  color: #FFF;
+  background: #107fd2;
+  transform: translateY(-12px);
+}
+.social .social-link i {
+  font-size: 22px;
+}/*# sourceMappingURL=social.css.map */

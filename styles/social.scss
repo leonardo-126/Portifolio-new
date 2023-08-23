@@ -1,0 +1,34 @@
+@use 'variables';
+
+.social {
+    display: flex;
+    column-gap: 8px;
+    margin-top: 24px;
+
+    .social-link {
+        width: 46px;
+        height: 46px;
+    
+        border-radius: 4px;
+        background: variables.$background-body;
+
+        color: variables.$secondary;
+
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s;
+
+        &:hover {
+            color: #FFF;
+
+            background: variables.$link;
+            transform: translateY(-12px);
+        }
+
+        i {
+            font-size: 22px;
+        }
+    }
+}

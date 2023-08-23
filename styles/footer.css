@@ -1,0 +1,14 @@
+.footer {
+  width: 100%;
+  background: #FFF;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 7% 0;
+  text-align: center;
+}
+.footer-content h1 {
+  color: #334155;
+  font-size: 28px;
+}/*# sourceMappingURL=footer.css.map */

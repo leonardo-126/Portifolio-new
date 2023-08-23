@@ -1,0 +1,40 @@
+@use 'variables';
+@use 'user';
+@use 'social';
+@use 'about';
+@use 'projects';
+@use 'footer';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: variables.$background-body;
+    color: variables.$primary-color;
+    font: 400 16px "inter", sans-serif; 
+}
+
+.app {
+    display: grid;
+    grid-template-columns:  460px 1fr;
+    gap: 48px;
+
+    width: 100%;
+    max-width: 1366px;
+
+    padding:0 24px;
+
+    margin: 160px auto 100px;
+    .card {
+        border-radius: 12px;
+        background: variables.$background-card;
+        box-shadow: variables.$shadow-card;
+
+        .subtitle {
+            font-size: 28px;
+            font-weight: 600;
+        }
+    }
+}

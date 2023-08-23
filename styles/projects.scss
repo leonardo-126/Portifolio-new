@@ -1,0 +1,77 @@
+@use 'variables';
+
+.projects {
+    grid-column: 1 / 3;
+    padding: 32px 40px;
+
+    #project-content {
+        margin-top: 16px;
+        display: grid;
+        gap: 32px;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        .project {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 12px;
+
+            width: 100%;
+
+            overflow: hidden;
+            text-decoration: none;
+
+            border-radius: 6px;
+            padding-bottom: 12px;
+            border: 1px solid variables.$background-body;
+
+            &:hover strong {
+                color: variables.$link;
+            }
+
+            &:hover picture img {
+                transform: scale(1.1);
+            }
+            
+            picture {
+                width: 100%;
+                height: 220px;
+
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    transition: all 0.4s;
+                }
+            }
+            strong {
+                font-size: 16px;
+                font-weight: 600;
+                color: variables.$secondary;
+
+                padding: 0 18px;
+                text-align: center;
+                transition: all 0.4s;
+            }
+            div {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 4px;
+                padding: 0 8px;
+                margin-top: auto;
+
+                span {
+                    font-size: 12px;
+                    font-weight: 300;
+                    color: variables.$secondary;
+
+                    padding: 4px 8px;
+                    border-radius: 2px;
+                    background: variables.$background-badge;
+                }
+            }       
+        }
+    }
+}
