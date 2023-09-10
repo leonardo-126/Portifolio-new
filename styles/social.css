@@ -23,4 +23,23 @@
 }
 .social .social-link i {
   font-size: 22px;
+}
+
+@media (max-width: 1080px) {
+  .social {
+    gap: 12px;
+    margin-top: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .social {
+    gap: 8px;
+  }
+  .social .social-link {
+    width: 40px;
+    height: 40px;
+  }
+  .social .social-link i {
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=social.css.map */

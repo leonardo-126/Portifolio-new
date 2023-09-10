@@ -40,3 +40,62 @@
         
     }
 }
+
+@media (max-width: 1080px) {
+    .user {
+        padding: 0 24px 24px;
+
+        picture {
+            width: 140px;
+            height: 140px;
+
+            margin-top: -70px;
+        }
+        .user-content {
+            h1 {
+                font-size: 28px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .user {
+        padding: 0;
+        flex-direction: row;
+        row-gap: 0;
+
+        picture {
+            width: 180px;
+            height: 180px;
+            margin-top: 0;
+
+            img {
+                border-radius: 12px 0 0 12px;
+            }
+        }
+        .user-content {
+            margin: 0 auto;
+            row-gap: 4px;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .user {
+        flex-direction: column;
+        row-gap: 6px;
+        padding: 24px;
+
+        picture {
+            width: 140px;
+            height: 140px;
+            img{
+                border-radius: 12px;
+            }
+        }
+    }
+}

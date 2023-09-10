@@ -18,3 +18,10 @@
         }
     }
 }
+
+@media (max-width: 550px){
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+}

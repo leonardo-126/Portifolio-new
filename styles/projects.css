@@ -60,4 +60,23 @@
   padding: 4px 8px;
   border-radius: 2px;
   background: #E6EEF5;
+}
+
+@media (max-width: 1080px) {
+  .projects {
+    padding: 24px;
+  }
+  .projects #project-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .projects #project-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .projects #project-content .project picture {
+    height: 180px;
+  }
 }/*# sourceMappingURL=projects.css.map */

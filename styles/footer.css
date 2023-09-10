@@ -11,4 +11,11 @@
 .footer-content h1 {
   color: #334155;
   font-size: 28px;
+}
+
+@media (max-width: 550px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=footer.css.map */
