@@ -1,38 +1,26 @@
 [
   {
-    "name": "IronGym",
-    "image": "./assets/dexFoto.png",
-    "tags": ["JavaScript", "React", "Conteudo &copy;IronGyn"],
-    "link": "https://github.com/leonardo-126/Iron-Gym"
+    "name": "Pomofocus",
+    "image": "./assets/pomodoro.png",
+    "tags": ["JavaScript", "React", "SCSS", "HTML"],
+    "link": "https://pomo-focus-five.vercel.app/"
+  },
+	{
+    "name": "PokeAPI",
+    "image": "./assets/pokemonLogo.png",
+    "tags": ["JavaScript", "React", "HTML", "CSS"],
+    "link": "https://pokedex-xi-red.vercel.app/"
   },
 	{
     "name": "IronGym",
-    "image": "./assets/dexFoto.png",
-    "tags": ["JavaScript", "React", "Conteudo &copy;IronGyn"],
-    "link": "https://github.com/leonardo-126/Iron-Gym"
-  },
-	{
-    "name": "IronGym",
-    "image": "./assets/dexFoto.png",
-    "tags": ["JavaScript", "React", "Conteudo &copy;IronGyn"],
-    "link": "https://github.com/leonardo-126/Iron-Gym"
+    "image": "./assets/bgTestimonials.png",
+    "tags": ["JavaScript", "React", "Conteudo &copy;IronGyn", "SCSS", "HTML"],
+    "link": "https://iron-gym-pearl.vercel.app/"
   },
   {
-    "name": "IronGym",
-    "image": "./assets/dexFoto.png",
-    "tags": ["JavaScript", "React", "Conteudo &copy;IronGyn"],
-    "link": "https://github.com/leonardo-126/Iron-Gym"
-  },
-	{
-    "name": "IronGym",
-    "image": "./assets/dexFoto.png",
-    "tags": ["JavaScript", "React", "Conteudo &copy;IronGyn"],
-    "link": "https://github.com/leonardo-126/Iron-Gym"
-  },
-	{
-    "name": "IronGym",
-    "image": "./assets/dexFoto.png",
-    "tags": ["JavaScript", "React", "Conteudo &copy;IronGyn"],
-    "link": "https://github.com/leonardo-126/Iron-Gym"
+    "name": "Sistema de Login",
+    "image": "./assets/Login.png",
+    "tags": ["HTML", "React", "CSS"],
+    "link": "https://login-estudando.vercel.app/"
   }
 ]

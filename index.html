@@ -12,10 +12,19 @@
     <link rel="stylesheet" href="styles/global.css">
     
     <link rel="stylesheet" href="styles/user.scss">
+
+    <!-- Script AOS - Animações -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     <div class="app">
-        <section class="card user">
+        <section 
+        class="card user" 
+        data-aos="fade-right" 
+        data-aos-duration="800" 
+        data-aos-easing="ease-in-out" 
+        > 
             <picture>
                 <img class="user-img" src="./assets/foto.png" alt="minha foto">
             </picture>
@@ -25,23 +34,28 @@
                 <p>Desenvolvedor front-end</p>
 
                 <div class="social">
-                    <a href="" class="social-link" target="_blank">
+                    <a href="https://www.linkedin.com/in/leonardo-paiva-0296a4268/" class="social-link" target="_blank">
                         <i class="ph ph-linkedin-logo"></i>
                     </a>
-                    <a href="" class="social-link" target="_blank">
+                    <a href="https://github.com/leonardo-126" class="social-link" target="_blank">
                         <i class="ph ph-github-logo"></i>
                     </a>
-                    <a href="" class="social-link" target="_blank">
+                    <a href="#" class="social-link" target="_blank">
                         <i class="ph ph-youtube-logo"></i>
                     </a>
-                    <a href="" class="social-link" target="_blank">
+                    <a href="https://www.instagram.com/leo_paula_1/" class="social-link" target="_blank">
                         <i class="ph ph-instagram-logo"></i>
                     </a>
                 </div>
 
             </div>
         </section>
-        <section class="card about">
+        <section 
+        class="card about"
+        data-aos="fade-left" 
+        data-aos-duration="800" 
+        data-aos-easing="ease-in-out"
+        >
             <h2 class="subtitle">Sobre</h2>
             <p>
                 Meu nome é Leonardo de Paula Paiva, um estudante de Ciência da Computação apaixonado por programação. Estou sempre buscando aprender e acompanhar as últimas tendências tecnológicas. Estou determinado a me destacar como um programador excepcional e contribuir com projetos desafiadores. Com minha criatividade e perseverança estou pronto para embarcar em novas jornadas e aperfeiçoar ao máximo minhas habilidades e competências.
@@ -50,7 +64,12 @@
                 Estou sempre disposto a enfrentar novos desafios e aprender com eles. Minha atitude de aprendizado contínuo e minha paixão por adquirir conhecimento me tornam uma escolha valiosa para sua equipe. Juntos, podemos superar desafios e alcançar resultados notáveis.
             </p>
         </section>
-        <section class="card projects">
+        <section 
+        class="card projects"
+        data-aos="fade-up" 
+        data-aos-duration="800" 
+        data-aos-easing="ease-in-out" 
+        >
             <h2 class="subtitle">Projects</h2>
 
             <div id="project-content">
@@ -58,28 +77,37 @@
             </div>
             
         </section>
-    </div>
-    <script src="./scripts/index.js"></script>
-    <footer>
-        <div class="footer">
+        <section 
+        class="footer card"
+        data-aos="fade-up" 
+        data-aos-duration="800" 
+        data-aos-easing="ease-in-out" 
+        >
             <div class="footer-content"> 
                 <h1>Never stop learning</h1>
             </div>      
             <div class="social">
-                <a href="" class="social-link" target="_blank">
+                <a href="https://www.linkedin.com/in/leonardo-paiva-0296a4268/" class="social-link" target="_blank">
                     <i class="ph ph-linkedin-logo"></i>
                 </a>
-                <a href="" class="social-link" target="_blank">
+                <a href="https://github.com/leonardo-126" class="social-link" target="_blank">
                     <i class="ph ph-github-logo"></i>
                 </a>
-                <a href="" class="social-link" target="_blank">
+                <a href="#" class="social-link" target="_blank">
                     <i class="ph ph-youtube-logo"></i>
                 </a>
-                <a href="" class="social-link" target="_blank">
+                <a href="https://www.instagram.com/leo_paula_1/" class="social-link" target="_blank">
                     <i class="ph ph-instagram-logo"></i>
                 </a>
             </div>
-        </div> 
-    </footer>
+        </section>
+    </div>
+    <script src="./scripts/index.js"></script>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+    AOS.init({ once: true })
+    </script>
 </body>
 </html>
