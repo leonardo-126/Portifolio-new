@@ -1,11 +1,12 @@
 const elemProjects = document.getElementById('project-content')
 
 
-const createImage = (projectImage) => {
+const createImage = (projectImage, projectName) => {
     const elemPicture = document.createElement('picture')
     const elemImg = document.createElement('img')
 
     elemImg.setAttribute('src', projectImage)
+    elemImg.setAttribute('alt', 'imagem de capa do projeto' + projectName)
 
     elemPicture.appendChild(elemImg)
     return elemPicture
@@ -41,14 +42,14 @@ const createProject = (project, index) => {
         elemProject.setAttribute('data-aos', 'zoom-in-up')
         elemProject.setAttribute('data-aos-duration', '800')
         elemProject.setAttribute('data-aos-easing', 'ease-in-out')
-        elemProject.setAttribute('data-aos-offset', '-100')
+        elemProject.setAttribute('data-aos-offset', '-300')
         elemProject.setAttribute('data-aos-delay', 300 * (index + 1))
         
         elemProject.classList.add('project')
 
 
         //add picture
-        elemProject.appendChild(createImage(project.image))
+        elemProject.appendChild(createImage(project.image, project.name))
 
 
         // add strong
