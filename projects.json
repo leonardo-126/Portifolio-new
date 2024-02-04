@@ -1,9 +1,9 @@
 [
   {
-    "name": "Pomofocus",
+    "name": "TodoList",
     "image": "./assets/pomodoro.png",
-    "tags": ["JavaScript", "React", "SCSS", "HTML"],
-    "link": "https://pomo-focus-five.vercel.app/"
+    "tags": ["JavaScript", "React", "SCSS", "HTML, Redux"],
+    "link": "https://todo-list-delta-drab.vercel.app/"
   },
 	{
     "name": "PokeAPI",
