@@ -5,6 +5,18 @@
     "tags": ["JavaScript", "React", "SCSS", "HTML, Redux"],
     "link": "https://todo-list-delta-drab.vercel.app/"
   },
+  {
+    "name": "TestFrontEnd-Kbrtec",
+    "image": "./assets/kbrtec.png",
+    "tags": ["JavaScript", "React", "SCSS", "HTML", "Gulp", "Responsive"],
+    "link": "https://kbrtec-teste-dusky.vercel.app/"
+  },
+  {
+    "name": "TestFrontEnd",
+    "image": "./assets/Vtex.png",
+    "tags": ["TypeScript", "React", "SCSS", "HTML"],
+    "link": "https://teste-front-end-jr-7pnb.vercel.app/"
+  },
 	{
     "name": "PokeAPI",
     "image": "./assets/pokemonLogo.png",
