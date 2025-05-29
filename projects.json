@@ -16,23 +16,5 @@
     "image": "./assets/Vtex.png",
     "tags": ["TypeScript", "React", "SCSS", "HTML"],
     "link": "https://teste-front-end-jr-7pnb.vercel.app/"
-  },
-	{
-    "name": "PokeAPI",
-    "image": "./assets/pokemonLogo.png",
-    "tags": ["JavaScript", "React", "HTML", "CSS"],
-    "link": "https://pokedex-xi-red.vercel.app/"
-  },
-	{
-    "name": "IronGym",
-    "image": "./assets/bgTestimonials.png",
-    "tags": ["JavaScript", "React", "Conteudo &copy;IronGyn", "SCSS", "HTML"],
-    "link": "https://iron-gym-pearl.vercel.app/"
-  },
-  {
-    "name": "Sistema de Login",
-    "image": "./assets/Login.png",
-    "tags": ["HTML", "React", "CSS"],
-    "link": "https://login-estudando.vercel.app/"
   }
 ]
